@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "152868906206",
+    "firebase_url": "https://lazada-6c39e.firebaseio.com",
+    "project_id": "lazada-6c39e",
+    "storage_bucket": "lazada-6c39e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152868906206:android:86572f2643a844c4",
+        "android_client_info": {
+          "package_name": "com.example.admin.lazada_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152868906206-00a7nb63n9ihv7523eepdpiikgvr0p3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx2sY42h37hPC0roPljY8g_mzWyfHwH4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152868906206-00a7nb63n9ihv7523eepdpiikgvr0p3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152868906206:android:18055d2e7fbb9d52",
+        "android_client_info": {
+          "package_name": "com.example.grid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152868906206-eaaj4dqurgqh5hlg4h1o4rbhnoip1u9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grid",
+            "certificate_hash": "0a647ad009790101e68e30e0d03efabffdc1fc5c"
+          }
+        },
+        {
+          "client_id": "152868906206-00a7nb63n9ihv7523eepdpiikgvr0p3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx2sY42h37hPC0roPljY8g_mzWyfHwH4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152868906206-00a7nb63n9ihv7523eepdpiikgvr0p3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".activity.GioHang_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/giohang_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#f2a409"
+        app:title="Giỏ hàng của bạn"
+        app:titleTextColor="#ffffff"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@+id/giohang_toolbar"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:layout_weight="7"
+            android:id="@+id/giohang_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/giohang_toolbar"
+            android:layout_marginTop="8dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:id="@+id/giohang_txt_tong"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:text="Tổng Tiền : ...Đ"
+            android:textColor="#00ff51"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/giohang_btn_thanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#00ffee"
+            android:text="Thanh Toán"
+            android:textAllCaps="false"
+            android:textColor="#fcfcfc"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:layout_weight="1"
+            android:id="@+id/giohang_btn_ttmua"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Tiếp tục mua hàng"
+            android:textAllCaps="false"
+            android:textColor="#fcfcfc"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

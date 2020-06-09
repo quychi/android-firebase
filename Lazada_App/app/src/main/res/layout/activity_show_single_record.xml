@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ShowSingleRecordActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_show_single_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:context="com.androidjson.serverupdate_androidjsoncom.MainActivity"
+        android:background="#FF5722">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Sửa, xoá sản phẩm"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/TenSP"
+            android:layout_width="396dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Tên sản phẩm"
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/GiaSP"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/TenSP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Giá sản phẩm"
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/Hinhanh"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/GiaSP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Hình ảnh sản phẩm"
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/Mota"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Hinhanh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Mô tả"
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/Loai"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Mota"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Loại"
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/buttonSua"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Loai"
+            android:layout_marginTop="20dp"
+            android:text="Sửa sản phẩm" />
+
+        <Button
+            android:id="@+id/buttonXoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonSua"
+            android:layout_marginTop="20dp"
+            android:text="Xoá sản phẩm" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

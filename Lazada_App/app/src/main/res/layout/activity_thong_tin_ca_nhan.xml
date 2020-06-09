@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.ThongTinCaNhan">
+    <android.support.v7.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar_thongtincanhan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#114dce"
+        app:titleTextColor="#fff"
+        app:title="Thông tin người dùng"></android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/ue"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ttcn_acount"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:text="Tên Tài khoản"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ttcn_hoten"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:text="Họ Tên"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ttcn_gmail"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:text="Gmail"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ttcn_sdt"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:text="SDT"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ttcn_diachi"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:text="Địa Chỉ"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

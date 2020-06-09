@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_loaisp_img"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/item_loaisp_txt"
+        android:layout_marginLeft="4dp"
+        android:text="Tên Loại Sản Phẩm"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>

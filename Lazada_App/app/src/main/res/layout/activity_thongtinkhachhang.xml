@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2f4079"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".activity.Thongtinkhachhang">
+    <LinearLayout
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:orientation="vertical"
+        android:background="@drawable/boder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:text="Thông Tin Khách Hàng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="#000"
+                android:id="@+id/info_kh_ten"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Nhập Tên Khách hàng"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"/>
+m
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:id="@+id/info_kh_sdt"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Nhập SDT"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:id="@+id/info_kh_email"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Nhập Email "
+                android:layout_width="match_parent"
+                android:layout_height="65dp"/>
+        </android.support.design.widget.TextInputLayout>
+        <RelativeLayout
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="#1e8899"
+                android:layout_marginLeft="32dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ffffff"
+                android:id="@+id/info_btn_xacnhan"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Xác Nhận "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="#1e8899"
+                android:layout_marginRight="32dp"
+                android:layout_alignParentRight="true"
+                android:textColor="#fff"
+                android:id="@+id/info_btn_trove"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Trở về "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

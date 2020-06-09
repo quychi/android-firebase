@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Dang_NhapActivity">
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="48sp"
+        android:textColor="#17009b"
+        android:text="Đăng Nhập"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dangnhap_acount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/boder"
+        android:hint="nhap email ..."
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dangnhap_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/boder"
+        android:hint="nhap pass ..."
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_dn"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bo_vien"
+        android:textAllCaps="false"
+        android:text="Đăng Nhập"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_dk"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bovie_dk"
+        android:textAllCaps="false"
+        android:text="Đăng Ký"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

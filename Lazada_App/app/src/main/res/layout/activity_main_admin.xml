@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainAdminActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:context="com.androidjson.serverupdate_androidjsoncom.MainActivity"
+        android:background="#FF5722">
+
+        <EditText
+            android:id="@+id/editTextTenSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tên sản phẩm"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextGiaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Giá sản phẩm"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editTextTenSP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextHinhanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Hình ảnh sản phẩm"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editTextGiaSP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextMota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mô tả"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editTextHinhanh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Loại"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/editTextMota"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonThem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm sản phẩm"
+            android:layout_below="@+id/editTextLoai"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonShowListProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hiện danh sách tất cả sản phẩm"
+            android:layout_below="@+id/buttonThem"
+            android:layout_marginTop="7dp"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
